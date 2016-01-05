@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8172EA31C3A273400A6879A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8172EA21C3A273400A6879A /* AppDelegate.swift */; };
+		A8172EA51C3A273400A6879A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8172EA41C3A273400A6879A /* ViewController.swift */; };
+		A8172EA81C3A273400A6879A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8172EA61C3A273400A6879A /* Main.storyboard */; };
+		A8172EAA1C3A273400A6879A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8172EA91C3A273400A6879A /* Assets.xcassets */; };
+		A8172EAD1C3A273400A6879A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8172EAB1C3A273400A6879A /* LaunchScreen.storyboard */; };
+		A8172EB81C3A273500A6879A /* NVTouchDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8172EB71C3A273500A6879A /* NVTouchDemoTests.swift */; };
+		A8172EC31C3A273500A6879A /* NVTouchDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8172EC21C3A273500A6879A /* NVTouchDemoUITests.swift */; };
+		A8172ED21C3A281300A6879A /* NVTouchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8172ED11C3A281300A6879A /* NVTouchView.swift */; settings = {ASSET_TAGS = (); }; };
+		A8172ED41C3A28CF00A6879A /* NVTouchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8172ED31C3A28CF00A6879A /* NVTouchView.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A8172EB41C3A273500A6879A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8172E971C3A273400A6879A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8172E9E1C3A273400A6879A;
+			remoteInfo = NVTouchDemo;
+		};
+		A8172EBF1C3A273500A6879A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A8172E971C3A273400A6879A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8172E9E1C3A273400A6879A;
+			remoteInfo = NVTouchDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8172E9F1C3A273400A6879A /* NVTouchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NVTouchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8172EA21C3A273400A6879A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8172EA41C3A273400A6879A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A8172EA71C3A273400A6879A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8172EA91C3A273400A6879A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8172EAC1C3A273400A6879A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8172EAE1C3A273400A6879A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8172EB31C3A273500A6879A /* NVTouchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NVTouchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8172EB71C3A273500A6879A /* NVTouchDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVTouchDemoTests.swift; sourceTree = "<group>"; };
+		A8172EB91C3A273500A6879A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8172EBE1C3A273500A6879A /* NVTouchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NVTouchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8172EC21C3A273500A6879A /* NVTouchDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NVTouchDemoUITests.swift; sourceTree = "<group>"; };
+		A8172EC41C3A273500A6879A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8172ED11C3A281300A6879A /* NVTouchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVTouchView.swift; path = NVTouchView/NVTouchView.swift; sourceTree = "<group>"; };
+		A8172ED31C3A28CF00A6879A /* NVTouchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NVTouchView.xib; path = NVTouchView/NVTouchView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8172E9C1C3A273400A6879A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8172EB01C3A273500A6879A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8172EBB1C3A273500A6879A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8172E961C3A273400A6879A = {
+			isa = PBXGroup;
+			children = (
+				A8172EA11C3A273400A6879A /* NVTouchDemo */,
+				A8172EB61C3A273500A6879A /* NVTouchDemoTests */,
+				A8172EC11C3A273500A6879A /* NVTouchDemoUITests */,
+				A8172EA01C3A273400A6879A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8172EA01C3A273400A6879A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8172E9F1C3A273400A6879A /* NVTouchDemo.app */,
+				A8172EB31C3A273500A6879A /* NVTouchDemoTests.xctest */,
+				A8172EBE1C3A273500A6879A /* NVTouchDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8172EA11C3A273400A6879A /* NVTouchDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A8172ED01C3A27D300A6879A /* NVTouchView */,
+				A8172EA21C3A273400A6879A /* AppDelegate.swift */,
+				A8172EA41C3A273400A6879A /* ViewController.swift */,
+				A8172EA61C3A273400A6879A /* Main.storyboard */,
+				A8172EA91C3A273400A6879A /* Assets.xcassets */,
+				A8172EAB1C3A273400A6879A /* LaunchScreen.storyboard */,
+				A8172EAE1C3A273400A6879A /* Info.plist */,
+			);
+			path = NVTouchDemo;
+			sourceTree = "<group>";
+		};
+		A8172EB61C3A273500A6879A /* NVTouchDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A8172EB71C3A273500A6879A /* NVTouchDemoTests.swift */,
+				A8172EB91C3A273500A6879A /* Info.plist */,
+			);
+			path = NVTouchDemoTests;
+			sourceTree = "<group>";
+		};
+		A8172EC11C3A273500A6879A /* NVTouchDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8172EC21C3A273500A6879A /* NVTouchDemoUITests.swift */,
+				A8172EC41C3A273500A6879A /* Info.plist */,
+			);
+			path = NVTouchDemoUITests;
+			sourceTree = "<group>";
+		};
+		A8172ED01C3A27D300A6879A /* NVTouchView */ = {
+			isa = PBXGroup;
+			children = (
+				A8172ED11C3A281300A6879A /* NVTouchView.swift */,
+				A8172ED31C3A28CF00A6879A /* NVTouchView.xib */,
+			);
+			name = NVTouchView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8172E9E1C3A273400A6879A /* NVTouchDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8172EC71C3A273500A6879A /* Build configuration list for PBXNativeTarget "NVTouchDemo" */;
+			buildPhases = (
+				A8172E9B1C3A273400A6879A /* Sources */,
+				A8172E9C1C3A273400A6879A /* Frameworks */,
+				A8172E9D1C3A273400A6879A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NVTouchDemo;
+			productName = NVTouchDemo;
+			productReference = A8172E9F1C3A273400A6879A /* NVTouchDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8172EB21C3A273500A6879A /* NVTouchDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8172ECA1C3A273500A6879A /* Build configuration list for PBXNativeTarget "NVTouchDemoTests" */;
+			buildPhases = (
+				A8172EAF1C3A273500A6879A /* Sources */,
+				A8172EB01C3A273500A6879A /* Frameworks */,
+				A8172EB11C3A273500A6879A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8172EB51C3A273500A6879A /* PBXTargetDependency */,
+			);
+			name = NVTouchDemoTests;
+			productName = NVTouchDemoTests;
+			productReference = A8172EB31C3A273500A6879A /* NVTouchDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8172EBD1C3A273500A6879A /* NVTouchDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8172ECD1C3A273500A6879A /* Build configuration list for PBXNativeTarget "NVTouchDemoUITests" */;
+			buildPhases = (
+				A8172EBA1C3A273500A6879A /* Sources */,
+				A8172EBB1C3A273500A6879A /* Frameworks */,
+				A8172EBC1C3A273500A6879A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8172EC01C3A273500A6879A /* PBXTargetDependency */,
+			);
+			name = NVTouchDemoUITests;
+			productName = NVTouchDemoUITests;
+			productReference = A8172EBE1C3A273500A6879A /* NVTouchDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8172E971C3A273400A6879A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Vy Nguyen";
+				TargetAttributes = {
+					A8172E9E1C3A273400A6879A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A8172EB21C3A273500A6879A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A8172E9E1C3A273400A6879A;
+					};
+					A8172EBD1C3A273500A6879A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A8172E9E1C3A273400A6879A;
+					};
+				};
+			};
+			buildConfigurationList = A8172E9A1C3A273400A6879A /* Build configuration list for PBXProject "NVTouchDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8172E961C3A273400A6879A;
+			productRefGroup = A8172EA01C3A273400A6879A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8172E9E1C3A273400A6879A /* NVTouchDemo */,
+				A8172EB21C3A273500A6879A /* NVTouchDemoTests */,
+				A8172EBD1C3A273500A6879A /* NVTouchDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8172E9D1C3A273400A6879A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8172EAD1C3A273400A6879A /* LaunchScreen.storyboard in Resources */,
+				A8172EAA1C3A273400A6879A /* Assets.xcassets in Resources */,
+				A8172ED41C3A28CF00A6879A /* NVTouchView.xib in Resources */,
+				A8172EA81C3A273400A6879A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8172EB11C3A273500A6879A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8172EBC1C3A273500A6879A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8172E9B1C3A273400A6879A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8172EA51C3A273400A6879A /* ViewController.swift in Sources */,
+				A8172EA31C3A273400A6879A /* AppDelegate.swift in Sources */,
+				A8172ED21C3A281300A6879A /* NVTouchView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8172EAF1C3A273500A6879A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8172EB81C3A273500A6879A /* NVTouchDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8172EBA1C3A273500A6879A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8172EC31C3A273500A6879A /* NVTouchDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A8172EB51C3A273500A6879A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8172E9E1C3A273400A6879A /* NVTouchDemo */;
+			targetProxy = A8172EB41C3A273500A6879A /* PBXContainerItemProxy */;
+		};
+		A8172EC01C3A273500A6879A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8172E9E1C3A273400A6879A /* NVTouchDemo */;
+			targetProxy = A8172EBF1C3A273500A6879A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A8172EA61C3A273400A6879A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8172EA71C3A273400A6879A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8172EAB1C3A273400A6879A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8172EAC1C3A273400A6879A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8172EC51C3A273500A6879A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8172EC61C3A273500A6879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8172EC81C3A273500A6879A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NVTouchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vv.v-lab.NVTouchDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A8172EC91C3A273500A6879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NVTouchDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vv.v-lab.NVTouchDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A8172ECB1C3A273500A6879A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NVTouchDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vv.v-lab.NVTouchDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NVTouchDemo.app/NVTouchDemo";
+			};
+			name = Debug;
+		};
+		A8172ECC1C3A273500A6879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NVTouchDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vv.v-lab.NVTouchDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NVTouchDemo.app/NVTouchDemo";
+			};
+			name = Release;
+		};
+		A8172ECE1C3A273500A6879A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NVTouchDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vv.v-lab.NVTouchDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NVTouchDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A8172ECF1C3A273500A6879A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NVTouchDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vv.v-lab.NVTouchDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NVTouchDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8172E9A1C3A273400A6879A /* Build configuration list for PBXProject "NVTouchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8172EC51C3A273500A6879A /* Debug */,
+				A8172EC61C3A273500A6879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8172EC71C3A273500A6879A /* Build configuration list for PBXNativeTarget "NVTouchDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8172EC81C3A273500A6879A /* Debug */,
+				A8172EC91C3A273500A6879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8172ECA1C3A273500A6879A /* Build configuration list for PBXNativeTarget "NVTouchDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8172ECB1C3A273500A6879A /* Debug */,
+				A8172ECC1C3A273500A6879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8172ECD1C3A273500A6879A /* Build configuration list for PBXNativeTarget "NVTouchDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8172ECE1C3A273500A6879A /* Debug */,
+				A8172ECF1C3A273500A6879A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8172E971C3A273400A6879A /* Project object */;
+}
